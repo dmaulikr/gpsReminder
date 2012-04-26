@@ -25,6 +25,7 @@
 		A8D116891549D7B500A4A0BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D1165F1549D7B400A4A0BE /* Foundation.framework */; };
 		A8D116911549D7B500A4A0BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8D1168F1549D7B500A4A0BE /* InfoPlist.strings */; };
 		A8D116941549D7B500A4A0BE /* gpsReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D116931549D7B500A4A0BE /* gpsReminderTests.m */; };
+		ECE201CB1549E66100E7D3CD /* testOnur.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ECE201CA1549E66100E7D3CD /* testOnur.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		A8D116921549D7B500A4A0BE /* gpsReminderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gpsReminderTests.h; sourceTree = "<group>"; };
 		A8D116931549D7B500A4A0BE /* gpsReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gpsReminderTests.m; sourceTree = "<group>"; };
 		A8D116A21549D8E300A4A0BE /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = tr; path = tr.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ECE201CA1549E66100E7D3CD /* testOnur.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = testOnur.rtf; path = ../../../../Users/onurkzlyl/Desktop/testOnur.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		A8D116631549D7B400A4A0BE /* gpsReminder */ = {
 			isa = PBXGroup;
 			children = (
+				ECE201CA1549E66100E7D3CD /* testOnur.rtf */,
 				A8D1166C1549D7B400A4A0BE /* gtkAppDelegate.h */,
 				A8D1166D1549D7B400A4A0BE /* gtkAppDelegate.m */,
 				A8D1166F1549D7B400A4A0BE /* MainStoryboard.storyboard */,
@@ -246,6 +249,7 @@
 				A8D116781549D7B500A4A0BE /* first@2x.png in Resources */,
 				A8D1167D1549D7B500A4A0BE /* second.png in Resources */,
 				A8D1167F1549D7B500A4A0BE /* second@2x.png in Resources */,
+				ECE201CB1549E66100E7D3CD /* testOnur.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
