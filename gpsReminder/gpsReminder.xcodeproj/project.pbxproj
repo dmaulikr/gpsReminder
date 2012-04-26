@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8D1165E1549D7B400A4A0BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D1165D1549D7B400A4A0BE /* UIKit.framework */; };
+		A8D116601549D7B400A4A0BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D1165F1549D7B400A4A0BE /* Foundation.framework */; };
+		A8D116621549D7B400A4A0BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D116611549D7B400A4A0BE /* CoreGraphics.framework */; };
+		A8D116681549D7B400A4A0BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8D116661549D7B400A4A0BE /* InfoPlist.strings */; };
+		A8D1166A1549D7B400A4A0BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D116691549D7B400A4A0BE /* main.m */; };
+		A8D1166E1549D7B400A4A0BE /* gtkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D1166D1549D7B400A4A0BE /* gtkAppDelegate.m */; };
+		A8D116711549D7B400A4A0BE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D1166F1549D7B400A4A0BE /* MainStoryboard.storyboard */; };
+		A8D116741549D7B500A4A0BE /* gtkFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D116731549D7B500A4A0BE /* gtkFirstViewController.m */; };
+		A8D116761549D7B500A4A0BE /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D116751549D7B500A4A0BE /* first.png */; };
+		A8D116781549D7B500A4A0BE /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D116771549D7B500A4A0BE /* first@2x.png */; };
+		A8D1167B1549D7B500A4A0BE /* gtkSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D1167A1549D7B500A4A0BE /* gtkSecondViewController.m */; };
+		A8D1167D1549D7B500A4A0BE /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D1167C1549D7B500A4A0BE /* second.png */; };
+		A8D1167F1549D7B500A4A0BE /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D1167E1549D7B500A4A0BE /* second@2x.png */; };
+		A8D116871549D7B500A4A0BE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D116861549D7B500A4A0BE /* SenTestingKit.framework */; };
+		A8D116881549D7B500A4A0BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D1165D1549D7B400A4A0BE /* UIKit.framework */; };
+		A8D116891549D7B500A4A0BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D1165F1549D7B400A4A0BE /* Foundation.framework */; };
+		A8D116911549D7B500A4A0BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8D1168F1549D7B500A4A0BE /* InfoPlist.strings */; };
+		A8D116941549D7B500A4A0BE /* gpsReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D116931549D7B500A4A0BE /* gpsReminderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8D1168A1549D7B500A4A0BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8D116501549D7B400A4A0BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8D116581549D7B400A4A0BE;
+			remoteInfo = gpsReminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8D116591549D7B400A4A0BE /* gpsReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gpsReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D1165D1549D7B400A4A0BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8D1165F1549D7B400A4A0BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8D116611549D7B400A4A0BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8D116651549D7B400A4A0BE /* gpsReminder-Info.plist */ = {isa = PBXFileReference; path = "gpsReminder-Info.plist"; sourceTree = "<group>"; };
+		A8D116671549D7B400A4A0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8D116691549D7B400A4A0BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8D1166B1549D7B400A4A0BE /* gpsReminder-Prefix.pch */ = {isa = PBXFileReference; path = "gpsReminder-Prefix.pch"; sourceTree = "<group>"; };
+		A8D1166C1549D7B400A4A0BE /* gtkAppDelegate.h */ = {isa = PBXFileReference; path = gtkAppDelegate.h; sourceTree = "<group>"; };
+		A8D1166D1549D7B400A4A0BE /* gtkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gtkAppDelegate.m; sourceTree = "<group>"; };
+		A8D116701549D7B400A4A0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A8D116721549D7B400A4A0BE /* gtkFirstViewController.h */ = {isa = PBXFileReference; path = gtkFirstViewController.h; sourceTree = "<group>"; };
+		A8D116731549D7B500A4A0BE /* gtkFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gtkFirstViewController.m; sourceTree = "<group>"; };
+		A8D116751549D7B500A4A0BE /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		A8D116771549D7B500A4A0BE /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		A8D116791549D7B500A4A0BE /* gtkSecondViewController.h */ = {isa = PBXFileReference; path = gtkSecondViewController.h; sourceTree = "<group>"; };
+		A8D1167A1549D7B500A4A0BE /* gtkSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gtkSecondViewController.m; sourceTree = "<group>"; };
+		A8D1167C1549D7B500A4A0BE /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		A8D1167E1549D7B500A4A0BE /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		A8D116851549D7B500A4A0BE /* gpsReminderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gpsReminderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D116861549D7B500A4A0BE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A8D1168E1549D7B500A4A0BE /* gpsReminderTests-Info.plist */ = {isa = PBXFileReference; path = "gpsReminderTests-Info.plist"; sourceTree = "<group>"; };
+		A8D116901549D7B500A4A0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8D116921549D7B500A4A0BE /* gpsReminderTests.h */ = {isa = PBXFileReference; path = gpsReminderTests.h; sourceTree = "<group>"; };
+		A8D116931549D7B500A4A0BE /* gpsReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gpsReminderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8D116561549D7B400A4A0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D1165E1549D7B400A4A0BE /* UIKit.framework in Frameworks */,
+				A8D116601549D7B400A4A0BE /* Foundation.framework in Frameworks */,
+				A8D116621549D7B400A4A0BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D116811549D7B500A4A0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D116871549D7B500A4A0BE /* SenTestingKit.framework in Frameworks */,
+				A8D116881549D7B500A4A0BE /* UIKit.framework in Frameworks */,
+				A8D116891549D7B500A4A0BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8D1164E1549D7B400A4A0BE = {
+			isa = PBXGroup;
+			children = (
+				A8D116631549D7B400A4A0BE /* gpsReminder */,
+				A8D1168C1549D7B500A4A0BE /* gpsReminderTests */,
+				A8D1165C1549D7B400A4A0BE /* Frameworks */,
+				A8D1165A1549D7B400A4A0BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8D1165A1549D7B400A4A0BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8D116591549D7B400A4A0BE /* gpsReminder.app */,
+				A8D116851549D7B500A4A0BE /* gpsReminderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8D1165C1549D7B400A4A0BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8D1165D1549D7B400A4A0BE /* UIKit.framework */,
+				A8D1165F1549D7B400A4A0BE /* Foundation.framework */,
+				A8D116611549D7B400A4A0BE /* CoreGraphics.framework */,
+				A8D116861549D7B500A4A0BE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8D116631549D7B400A4A0BE /* gpsReminder */ = {
+			isa = PBXGroup;
+			children = (
+				A8D1166C1549D7B400A4A0BE /* gtkAppDelegate.h */,
+				A8D1166D1549D7B400A4A0BE /* gtkAppDelegate.m */,
+				A8D1166F1549D7B400A4A0BE /* MainStoryboard.storyboard */,
+				A8D116721549D7B400A4A0BE /* gtkFirstViewController.h */,
+				A8D116731549D7B500A4A0BE /* gtkFirstViewController.m */,
+				A8D116751549D7B500A4A0BE /* first.png */,
+				A8D116771549D7B500A4A0BE /* first@2x.png */,
+				A8D116791549D7B500A4A0BE /* gtkSecondViewController.h */,
+				A8D1167A1549D7B500A4A0BE /* gtkSecondViewController.m */,
+				A8D1167C1549D7B500A4A0BE /* second.png */,
+				A8D1167E1549D7B500A4A0BE /* second@2x.png */,
+				A8D116641549D7B400A4A0BE /* Supporting Files */,
+			);
+			path = gpsReminder;
+			sourceTree = "<group>";
+		};
+		A8D116641549D7B400A4A0BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8D116651549D7B400A4A0BE /* gpsReminder-Info.plist */,
+				A8D116661549D7B400A4A0BE /* InfoPlist.strings */,
+				A8D116691549D7B400A4A0BE /* main.m */,
+				A8D1166B1549D7B400A4A0BE /* gpsReminder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8D1168C1549D7B500A4A0BE /* gpsReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8D116921549D7B500A4A0BE /* gpsReminderTests.h */,
+				A8D116931549D7B500A4A0BE /* gpsReminderTests.m */,
+				A8D1168D1549D7B500A4A0BE /* Supporting Files */,
+			);
+			path = gpsReminderTests;
+			sourceTree = "<group>";
+		};
+		A8D1168D1549D7B500A4A0BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8D1168E1549D7B500A4A0BE /* gpsReminderTests-Info.plist */,
+				A8D1168F1549D7B500A4A0BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8D116581549D7B400A4A0BE /* gpsReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D116971549D7B500A4A0BE /* Build configuration list for PBXNativeTarget "gpsReminder" */;
+			buildPhases = (
+				A8D116551549D7B400A4A0BE /* Sources */,
+				A8D116561549D7B400A4A0BE /* Frameworks */,
+				A8D116571549D7B400A4A0BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gpsReminder;
+			productName = gpsReminder;
+			productReference = A8D116591549D7B400A4A0BE /* gpsReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8D116841549D7B500A4A0BE /* gpsReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D1169A1549D7B500A4A0BE /* Build configuration list for PBXNativeTarget "gpsReminderTests" */;
+			buildPhases = (
+				A8D116801549D7B500A4A0BE /* Sources */,
+				A8D116811549D7B500A4A0BE /* Frameworks */,
+				A8D116821549D7B500A4A0BE /* Resources */,
+				A8D116831549D7B500A4A0BE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8D1168B1549D7B500A4A0BE /* PBXTargetDependency */,
+			);
+			name = gpsReminderTests;
+			productName = gpsReminderTests;
+			productReference = A8D116851549D7B500A4A0BE /* gpsReminderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8D116501549D7B400A4A0BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A8D116531549D7B400A4A0BE /* Build configuration list for PBXProject "gpsReminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8D1164E1549D7B400A4A0BE;
+			productRefGroup = A8D1165A1549D7B400A4A0BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8D116581549D7B400A4A0BE /* gpsReminder */,
+				A8D116841549D7B500A4A0BE /* gpsReminderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8D116571549D7B400A4A0BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D116681549D7B400A4A0BE /* InfoPlist.strings in Resources */,
+				A8D116711549D7B400A4A0BE /* MainStoryboard.storyboard in Resources */,
+				A8D116761549D7B500A4A0BE /* first.png in Resources */,
+				A8D116781549D7B500A4A0BE /* first@2x.png in Resources */,
+				A8D1167D1549D7B500A4A0BE /* second.png in Resources */,
+				A8D1167F1549D7B500A4A0BE /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D116821549D7B500A4A0BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D116911549D7B500A4A0BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8D116831549D7B500A4A0BE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8D116551549D7B400A4A0BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D1166A1549D7B400A4A0BE /* main.m in Sources */,
+				A8D1166E1549D7B400A4A0BE /* gtkAppDelegate.m in Sources */,
+				A8D116741549D7B500A4A0BE /* gtkFirstViewController.m in Sources */,
+				A8D1167B1549D7B500A4A0BE /* gtkSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D116801549D7B500A4A0BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D116941549D7B500A4A0BE /* gpsReminderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8D1168B1549D7B500A4A0BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8D116581549D7B400A4A0BE /* gpsReminder */;
+			targetProxy = A8D1168A1549D7B500A4A0BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8D116661549D7B400A4A0BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8D116671549D7B400A4A0BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8D1166F1549D7B400A4A0BE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8D116701549D7B400A4A0BE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		A8D1168F1549D7B500A4A0BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8D116901549D7B500A4A0BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8D116951549D7B500A4A0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8D116961549D7B500A4A0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8D116981549D7B500A4A0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gpsReminder/gpsReminder-Prefix.pch";
+				INFOPLIST_FILE = "gpsReminder/gpsReminder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8D116991549D7B500A4A0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gpsReminder/gpsReminder-Prefix.pch";
+				INFOPLIST_FILE = "gpsReminder/gpsReminder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A8D1169B1549D7B500A4A0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/gpsReminder.app/gpsReminder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gpsReminder/gpsReminder-Prefix.pch";
+				INFOPLIST_FILE = "gpsReminderTests/gpsReminderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A8D1169C1549D7B500A4A0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/gpsReminder.app/gpsReminder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gpsReminder/gpsReminder-Prefix.pch";
+				INFOPLIST_FILE = "gpsReminderTests/gpsReminderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8D116531549D7B400A4A0BE /* Build configuration list for PBXProject "gpsReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D116951549D7B500A4A0BE /* Debug */,
+				A8D116961549D7B500A4A0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D116971549D7B500A4A0BE /* Build configuration list for PBXNativeTarget "gpsReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D116981549D7B500A4A0BE /* Debug */,
+				A8D116991549D7B500A4A0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8D1169A1549D7B500A4A0BE /* Build configuration list for PBXNativeTarget "gpsReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D1169B1549D7B500A4A0BE /* Debug */,
+				A8D1169C1549D7B500A4A0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8D116501549D7B400A4A0BE /* Project object */;
+}
