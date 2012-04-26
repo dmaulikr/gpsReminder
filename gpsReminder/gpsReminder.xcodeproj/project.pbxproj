@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A887765D1549E67600D30CE7 /* CatagoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = A887765C1549E67600D30CE7 /* CatagoryController.m */; };
 		A8D1165E1549D7B400A4A0BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D1165D1549D7B400A4A0BE /* UIKit.framework */; };
 		A8D116601549D7B400A4A0BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D1165F1549D7B400A4A0BE /* Foundation.framework */; };
 		A8D116621549D7B400A4A0BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D116611549D7B400A4A0BE /* CoreGraphics.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A887765B1549E67600D30CE7 /* CatagoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatagoryController.h; sourceTree = "<group>"; };
+		A887765C1549E67600D30CE7 /* CatagoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatagoryController.m; sourceTree = "<group>"; };
 		A8D116591549D7B400A4A0BE /* gpsReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gpsReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D1165D1549D7B400A4A0BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A8D1165F1549D7B400A4A0BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -135,6 +138,8 @@
 				A8D1167C1549D7B500A4A0BE /* second.png */,
 				A8D1167E1549D7B500A4A0BE /* second@2x.png */,
 				A8D116641549D7B400A4A0BE /* Supporting Files */,
+				A887765B1549E67600D30CE7 /* CatagoryController.h */,
+				A887765C1549E67600D30CE7 /* CatagoryController.m */,
 			);
 			path = gpsReminder;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 				A8D1166E1549D7B400A4A0BE /* gtkAppDelegate.m in Sources */,
 				A8D116741549D7B500A4A0BE /* gtkFirstViewController.m in Sources */,
 				A8D1167B1549D7B500A4A0BE /* gtkSecondViewController.m in Sources */,
+				A887765D1549E67600D30CE7 /* CatagoryController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
