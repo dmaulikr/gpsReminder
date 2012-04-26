@@ -28,6 +28,7 @@
 		A8D116911549D7B500A4A0BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8D1168F1549D7B500A4A0BE /* InfoPlist.strings */; };
 		A8D116941549D7B500A4A0BE /* gpsReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D116931549D7B500A4A0BE /* gpsReminderTests.m */; };
 		ECE201CB1549E66100E7D3CD /* testOnur.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ECE201CA1549E66100E7D3CD /* testOnur.rtf */; };
+		ECE201D71549EF9A00E7D3CD /* OnurTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE201D61549EF9A00E7D3CD /* OnurTestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		A8D116931549D7B500A4A0BE /* gpsReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gpsReminderTests.m; sourceTree = "<group>"; };
 		A8D116A21549D8E300A4A0BE /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = tr; path = tr.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		ECE201CA1549E66100E7D3CD /* testOnur.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = testOnur.rtf; path = ../../../../Users/onurkzlyl/Desktop/testOnur.rtf; sourceTree = "<group>"; };
+		ECE201D51549EF9A00E7D3CD /* OnurTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnurTestClass.h; sourceTree = "<group>"; };
+		ECE201D61549EF9A00E7D3CD /* OnurTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnurTestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,8 @@
 				A8D116661549D7B400A4A0BE /* InfoPlist.strings */,
 				A8D116691549D7B400A4A0BE /* main.m */,
 				A8D1166B1549D7B400A4A0BE /* gpsReminder-Prefix.pch */,
+				ECE201D51549EF9A00E7D3CD /* OnurTestClass.h */,
+				ECE201D61549EF9A00E7D3CD /* OnurTestClass.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -300,6 +305,7 @@
 				A8D116741549D7B500A4A0BE /* gtkFirstViewController.m in Sources */,
 				A8D1167B1549D7B500A4A0BE /* gtkSecondViewController.m in Sources */,
 				A887765D1549E67600D30CE7 /* CatagoryController.m in Sources */,
+				ECE201D71549EF9A00E7D3CD /* OnurTestClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
