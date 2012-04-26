@@ -42,27 +42,28 @@
 		A8D1165D1549D7B400A4A0BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A8D1165F1549D7B400A4A0BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A8D116611549D7B400A4A0BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A8D116651549D7B400A4A0BE /* gpsReminder-Info.plist */ = {isa = PBXFileReference; path = "gpsReminder-Info.plist"; sourceTree = "<group>"; };
+		A8D116651549D7B400A4A0BE /* gpsReminder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gpsReminder-Info.plist"; sourceTree = "<group>"; };
 		A8D116671549D7B400A4A0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A8D116691549D7B400A4A0BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A8D1166B1549D7B400A4A0BE /* gpsReminder-Prefix.pch */ = {isa = PBXFileReference; path = "gpsReminder-Prefix.pch"; sourceTree = "<group>"; };
-		A8D1166C1549D7B400A4A0BE /* gtkAppDelegate.h */ = {isa = PBXFileReference; path = gtkAppDelegate.h; sourceTree = "<group>"; };
+		A8D1166B1549D7B400A4A0BE /* gpsReminder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gpsReminder-Prefix.pch"; sourceTree = "<group>"; };
+		A8D1166C1549D7B400A4A0BE /* gtkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gtkAppDelegate.h; sourceTree = "<group>"; };
 		A8D1166D1549D7B400A4A0BE /* gtkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gtkAppDelegate.m; sourceTree = "<group>"; };
 		A8D116701549D7B400A4A0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A8D116721549D7B400A4A0BE /* gtkFirstViewController.h */ = {isa = PBXFileReference; path = gtkFirstViewController.h; sourceTree = "<group>"; };
+		A8D116721549D7B400A4A0BE /* gtkFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gtkFirstViewController.h; sourceTree = "<group>"; };
 		A8D116731549D7B500A4A0BE /* gtkFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gtkFirstViewController.m; sourceTree = "<group>"; };
 		A8D116751549D7B500A4A0BE /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		A8D116771549D7B500A4A0BE /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		A8D116791549D7B500A4A0BE /* gtkSecondViewController.h */ = {isa = PBXFileReference; path = gtkSecondViewController.h; sourceTree = "<group>"; };
+		A8D116791549D7B500A4A0BE /* gtkSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gtkSecondViewController.h; sourceTree = "<group>"; };
 		A8D1167A1549D7B500A4A0BE /* gtkSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gtkSecondViewController.m; sourceTree = "<group>"; };
 		A8D1167C1549D7B500A4A0BE /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		A8D1167E1549D7B500A4A0BE /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		A8D116851549D7B500A4A0BE /* gpsReminderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gpsReminderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D116861549D7B500A4A0BE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A8D1168E1549D7B500A4A0BE /* gpsReminderTests-Info.plist */ = {isa = PBXFileReference; path = "gpsReminderTests-Info.plist"; sourceTree = "<group>"; };
+		A8D1168E1549D7B500A4A0BE /* gpsReminderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gpsReminderTests-Info.plist"; sourceTree = "<group>"; };
 		A8D116901549D7B500A4A0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A8D116921549D7B500A4A0BE /* gpsReminderTests.h */ = {isa = PBXFileReference; path = gpsReminderTests.h; sourceTree = "<group>"; };
+		A8D116921549D7B500A4A0BE /* gpsReminderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gpsReminderTests.h; sourceTree = "<group>"; };
 		A8D116931549D7B500A4A0BE /* gpsReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gpsReminderTests.m; sourceTree = "<group>"; };
+		A8D116A21549D8E300A4A0BE /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = tr; path = tr.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +222,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				tr,
 			);
 			mainGroup = A8D1164E1549D7B400A4A0BE;
 			productRefGroup = A8D1165A1549D7B400A4A0BE /* Products */;
@@ -316,6 +318,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A8D116701549D7B400A4A0BE /* en */,
+				A8D116A21549D8E300A4A0BE /* tr */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -451,6 +454,7 @@
 				A8D116991549D7B500A4A0BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8D1169A1549D7B500A4A0BE /* Build configuration list for PBXNativeTarget "gpsReminderTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +463,7 @@
 				A8D1169C1549D7B500A4A0BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
