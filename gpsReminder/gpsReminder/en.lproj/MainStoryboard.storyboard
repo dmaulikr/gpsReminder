@@ -35,6 +35,19 @@
             </objects>
             <point key="canvasLocation" x="653" y="-138"/>
         </scene>
+        <scene sceneID="Zu2-NJ-Atl">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qS4-VT-qE8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="dWG-i6-vP0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hsT-gs-BXW">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="226" y="805"/>
+        </scene>
         <scene sceneID="13">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
