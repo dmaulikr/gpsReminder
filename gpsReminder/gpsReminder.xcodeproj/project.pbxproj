@@ -44,6 +44,7 @@
 		3520BD501549EDF200156D6B /* gpsReminder.db3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gpsReminder.db3; sourceTree = "<group>"; };
 		A887765B1549E67600D30CE7 /* CatagoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatagoryController.h; sourceTree = "<group>"; };
 		A887765C1549E67600D30CE7 /* CatagoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatagoryController.m; sourceTree = "<group>"; };
+		A88776681549F06400D30CE7 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = de; path = de.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A8D116591549D7B400A4A0BE /* gpsReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gpsReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D1165D1549D7B400A4A0BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A8D1165F1549D7B400A4A0BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -234,6 +235,7 @@
 			knownRegions = (
 				en,
 				tr,
+				de,
 			);
 			mainGroup = A8D1164E1549D7B400A4A0BE;
 			productRefGroup = A8D1165A1549D7B400A4A0BE /* Products */;
@@ -333,6 +335,7 @@
 			children = (
 				A8D116701549D7B400A4A0BE /* en */,
 				A8D116A21549D8E300A4A0BE /* tr */,
+				A88776681549F06400D30CE7 /* de */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
